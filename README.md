@@ -5,10 +5,9 @@ The first school assignment for Singapore Polytechnic, Specialist Diploma in Ful
 The aim of the food blog is to test out the comptency of using basic HTML, CSS and JS to build a web portal (not mobile responsive) without a backend, and with form validation.
 
 
-References and special thanks to:
+References and special thanks to sites for providing the following:
 Content and Pictures:
 1. http://legendaryfoodhunter.blogspot.com/
-The blog is made this student, Glenn Tan Hui Xin.
 
 Banner Logo:
 2. https://pixabay.com
