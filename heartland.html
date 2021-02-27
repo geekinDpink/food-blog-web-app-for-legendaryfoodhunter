@@ -1,0 +1,171 @@
+<!---
+    Please click on the "Home", "Gem In Heartland" and "Share your find" tab in the nav bar
+    to navigate around the pages
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/heartland.css">
+    <title>Legendary Food Hunter</title>
+</head>
+
+<body>
+    <header>
+        <div class="col-1-4">
+            <h1 id="sideHeader">Legendary <br> Food Hunter</h1>
+        </div>
+        <div class="col-3-4">
+            <nav class="horizontal">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="heartland.html">Gem in Heartland</a></li>
+                    <li><a href="#">Cafe Hopping</a></li>
+                    <li><a href="#">Restuarant</a></li>
+                    <li><a href="shareyourfind.html">Share your Find</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img src="img/banner.jpg" alt="banner" id="welcomeBanner">
+    </header>
+
+
+    <section>
+        <h1 id="pageHeader">Legendary Food in Heartland</h1>
+    </section>
+
+    <section id="filterSection">
+        <form action="#">
+            <h2>Filter</h2>
+            <div class="col-1-4">
+                <label for="name">Name of Eatery</label><br>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="col-1-4">
+                <label for="location">Location</label><br>
+                <input type="text" id="location" name="location">
+            </div>
+
+            <div class="col-1-4">
+                <label for="type">Type of Food</label><br>
+                <input type="text" id="type" name="type">
+            </div>
+
+            <div class="col-1-4">
+                <input type="submit" value="Submit" id="submitFilterButton">
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <h2 id="pageHeader">Results</h2>
+    </section>
+
+    <article>
+        <br>
+        <!--Each Section act as a container to display a result/blogpost-->
+        <div class="resultContainer">
+            <!--For thumbnail-->
+            <div class="col-1-5">
+                <img src="img/resultimg1.jpg" alt="Meet Paul" class="resultImg">
+            </div>
+
+            <!--Header and the description-->
+            <div class="col-4-5">
+                <h2>Meet Paul</h2>
+                <p>Legend has it that....<br>
+                    at small corner of a coffeeshop in Tanjong Pagar,
+                    lies one of the few store in nation that sells Deep Sea Fishes.
+                    Not only are the fishes unique, the side dishes are special and appetising...Meet Paul...
+                </p>
+                <br>
+
+                <!--Sub-division for tags and rating-->
+                <div class="tag">
+                    <ul>
+                        <li>South</li>
+                        <li>Western</li>
+                        <li>Fish n Chip</li>
+                    </ul>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="resultContainer">
+            <!--For thumbnail-->
+            <div class="col-1-5">
+                <img src="img/resultimg2.jpg" alt="Hokkien Bak Kut Teh" class="resultImg">
+            </div>
+
+            <!--Header and the description-->
+            <div class="col-4-5">
+                <h2>Hokkien Bak Kut Teh</h2>
+                <p>Legend has it that.... <br>
+                    a small hawker stall tucked at the end of Bukit Merah Hawker Center has managed to
+                    nail out the essence of traditional Hokkien Bak Kut Teh.
+                    Its soup has a very rich, herbal taste that leave many layer of flavour after every sip.
+                    You can literally feel the herbs and sweet when you inhale.
+                </p>
+                <br>
+
+                <!--Sub-division for tags and rating-->
+                <div class="tag">
+                    <ul>
+                        <li>West</li>
+                        <li>Chinese</li>
+                        <li>Bak Kut Teh</li>
+                    </ul>
+                </div>
+            </div>
+        </div><br>
+
+
+        <div class="resultContainer">
+            <!--For thumbnail-->
+            <div class="col-1-5">
+                <img src="img/resultimg3.jpg" alt="Jia Xiang Nasi Lemak" class="resultImg">
+            </div>
+
+            <!--Header and the description-->
+            <div class="col-4-5">
+                <h2>Jia Xiang Nasi Lemak</h2>
+                <p>Legend has it that...<br>
+                    In a lane sparse in human traffic, along the right row of closed shutters, a fragrant nixture of
+                    conconut
+                    and pandan leaf aroma sprout from the a small shop. Enter the shop and you be greeted by plates of
+                    blue Nasi Lemak which is more than just coloring...
+                </p>
+                <br>
+
+                <!--Sub-division for tags and rating-->
+                <div class="tag">
+                    <ul>
+                        <li>Central</li>
+                        <li>Chinese</li>
+                        <li>Nasi Lemak</li>
+                    </ul>
+                </div>
+            </div>
+        </div><br>
+
+    </article>
+
+    <footer>
+        <div>
+            <p>Follow us on:</p>
+            <img src="img/facebook.jpg" alt="Facebook">
+            <img src="img/instagram.png" alt="Instagram">
+            <img src="img/twitter.jpg" alt="Twitter">
+            <img src="img/youtube.jpg" alt="Youtube">
+            <img src="img/rss.jpg" alt="RSS"><br><br>
+            <p>2020 Legendary Food Hunter. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+/*Additional Article style*/
+article{
+    display: table;
+}
+
+/*Filter style*/
+#filterSection{
+    width:80%;
+    background-color: #2C5882;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    padding: 10px 0 10px 20px;
+}
+
+#submitFilterButton{
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+/*Result Header overlapping into Filter Section effect styles*/
+#pageHeader{
+    margin-bottom: 10px;
+}
+
+/*Result styles*/
+article{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.resultContainer{
+    display: table;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #dddf88a4;
+    border-style: groove;
+    border-width:thick;
+    border-color: gray;
+}
+
+.resultImg{
+    width: fit-content;
+    height: auto;
+}
+
+.tag li{
+    display:block;
+    width: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    background-color: black;
+    color: #FFFFFF;
+}

@@ -1,0 +1,251 @@
+<!---
+    Web and Mobile Programming CA1
+    Name: Tan Hui Xin
+    Student ID: p7402009
+    
+    Please click on the "Home", "Gem In Heartland" and "Share your find" tab in the nav bar
+    to navigate around the pages
+
+    For the purpose of the assignment, the form page has be rename to index instead of the home.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/shareyourfind.css">
+    <title>Legendary Food Hunter</title>
+</head>
+
+<body>
+    <header>
+        <div class="col-1-4">
+            <h1 id="sideHeader">Legendary <br> Food Hunter</h1>
+        </div>
+        <div class="col-3-4">
+            <nav class="horizontal">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="heartland.html">Gem in Heartland</a></li>
+                    <li><a href="#">Cafe Hopping</a></li>
+                    <li><a href="#">Restuarant</a></li>
+                    <li><a href="shareyourfind.html">Share your Find</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img src="img/banner.jpg" alt="banner" id="welcomeBanner">
+    </header>
+
+
+    <section>
+        <h1 id="pageHeader">Share Your Favorite Food</h1>
+    </section>
+
+    <script src="js/form.js"></script>
+    <article>
+        <div id="formSection">
+            <h3>The legendary food hunter is always on the hunt for legendary food.
+                Only with the effort of the community, can these hidden food gems be unearthed.
+                Please feel free to share any good food you encounter in the form below.Thank you.
+            </h3>
+
+            <form id="feedbackForm" onsubmit="validateInput()" action="#" target="_blank">
+
+                <div class="newRow">
+                    <h3 id="subsection">I.Personal Particular</h3>
+                    <div class="col-1-5">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="col-4-5">
+                        <input type="text" id="name" name="name">
+                        <p class="errorMessage" id="nameError">container for error message</p>
+                        <!--container for error msg-->
+                    </div>
+                </div>
+
+                <div class="newRow">
+                    <div class="col-1-5">
+                        <label for="contactNumber">Contact Number:</label>
+                    </div>
+                    <div class="col-4-5">
+                        <input type="text" id="contactNumber" name="contactNumber" maxlength="8">
+                        <p class="errorMessage" id="contactNumberError">container for error message</p>
+                        <!--container for error msg-->
+                    </div>
+                </div>
+
+                <div class="newRow">
+                    <div class="col-1-5">
+                        <label for="email">Email Address:</label>
+                    </div>
+                    <div class="col-4-5">
+                        <input type="text" id="email" name="email">
+                        <p class="errorMessage" id="emailError">container for error message</p>
+                        <!--container for error msg-->
+                    </div>
+                </div>
+
+                <div class="newRow">
+                    <h3 id="subsection">II.Details of Eatery</h3>
+                    <div class="col-1-5">
+                        <label for="eatery">Name of Eatery:</label>
+                    </div>
+                    <div class="col-4-5">
+                        <input type="text" id="eatery" name="eatery">
+                        <p class="errorMessage" id="eateryError">container for error message</p>
+                        <!--container for error msg-->
+                    </div>
+                </div>
+
+                <div class="newRow">
+                    <!---Radio Button, can select only one choice-->
+                    <div class="col-1-5">Area:</div>
+                    <div class="col-4-5">
+                        <input type="radio" id="area" name="area" value="north">
+                        <label for="area">North</label>
+
+                        <input type="radio" id="area" name="area" value="south">
+                        <label for="area">South</label>
+
+                        <input type="radio" id="area" name="area" value="central">
+                        <label for="area">Central</label>
+
+                        <input type="radio" id="area" name="area" value="east">
+                        <label for="area">East</label>
+
+                        <input type="radio" id="area" name="area" value="west">
+                        <label for="area">West</label>
+                        <p class="errorMessage" id="areaError">container for error message</p>
+                        <!--container for error msg-->
+                    </div>
+                </div>
+
+                <div class="newRow">
+                    <div class="col-1-5">
+                        <label for="postalcode">Postal Code:</label>
+                    </div>
+                    <div class="col-4-5">
+                        <input type="text" id="postalcode" name="postalcode" maxlength="6">
+                        <p class="errorMessage" id="postalcodeError">container for error message</p>
+                        <!--container for error msg-->
+                    </div>
+                </div>
+
+                <div class="newRow">
+                    <!---Check-box, can select one or more choice from the list-->
+                    <div class="col-1-5">Type of Cuisine:</div>
+                    <div class="col-4-5">
+                        <input type="checkbox" id="chinese" name="cuisinetype" value="chinese">
+                        <label for="cuisinetype">Chinese</label>
+
+                        <input type="checkbox" id="dessert" name="cuisinetype" value="dessert">
+                        <label for="cuisinetype">Dessert</label>
+
+                        <input type="checkbox" id="drink" name="cuisinetype" value="drink">
+                        <label for="cuisinetype">Drink</label>
+
+                        <input type="checkbox" id="halal" name="cuisinetype" value="halal">
+                        <label for="cuisinetype">Halal</label><br>
+
+                        <input type="checkbox" id="indian" name="cuisinetype" value="indian">
+                        <label for="cuisinetype">Indian</label>
+
+                        <input type="checkbox" id="japanese" name="cuisinetype" value="japanese">
+                        <label for="cuisinetype">Japanese</label>
+
+                        <input type="checkbox" id="korean" name="cuisinetype" value="korean">
+                        <label for="cuisinetype">Korean</label>
+
+                        <input type="checkbox" id="malay" name="cuisinetype" value="malay">
+                        <label for="cuisinetype">Malay</label><br>
+
+                        <input type="checkbox" id="thai" name="cuisinetype" value="thai">
+                        <label for="cuisinetype">Thai</label>
+
+                        <input type="checkbox" id="vegetarian" name="cuisinetype" value="vegetarian">
+                        <label for="cuisinetype">Vegetarian</label>
+
+                        <input type="checkbox" id="western" name="cuisinetype" value="western">
+                        <label for="cuisinetype">Western</label>
+                        <p class="errorMessage" id="cuisinetypeError">container for error message</p>
+                        <!--container for error msg-->
+                    </div>
+                </div>
+
+                <div class="newRow">
+                    <!---Drop-down list, can only select one choice from the list-->
+                    <div class="col-1-5">
+                        <label for="foodType">Type of Food:</label>
+                    </div>
+
+                    <div class="col-4-5">
+                        <select id="foodType" name="foodType">
+                            <option value="default">Please select</option>
+                            <option value="bkt">Bak Kut Teh</option>
+                            <option value="bento">Bento</option>
+                            <option value="curryrice">Curry Rice</option>
+                            <option value="dessert">Dessert</option>
+                            <option value="drink">Drink</option>
+                            <option value="dessert">Economic Noodle</option>
+                            <option value="fnc">Fish and Chip</option>
+                            <option value="fishballnoodle">Fishball Noodle</option>
+                            <option value="hkmee">Hokkien Mee</option>
+                            <option value="laksa">Laksa</option>
+                            <option value="mookata">Mookata</option>
+                            <option value="meereebus">Mee Rebus</option>
+                            <option value="popiah">Popiah</option>
+                            <option value="ramen">Ramen</option>
+                            <option value="rojak">Rojak</option>
+                            <option value="sushi">Sushi</option>
+                            <option value="tomyum">Tom Yum</option>
+                            <option value="wantonnoodle">Wanton noodle</option>
+                            <option value="ytf">Yong Tau Foo</option>
+                        </select>
+                        <p class="errorMessage" id="foodTypeError">container for error message</p>
+                        <!--container for error msg-->
+                    </div>
+                </div>
+
+                <div class="newRow">
+                    <div class="col-1-5">
+                        <label for="description">Brief Description:</label>
+                    </div>
+                    <div class="col-4-5">
+                        <input type="text" id="description" name="description" size="50">
+                        <p class="errorMessage" id="descriptionError">container for error message</p>
+                        <!--container for error msg-->
+                    </div> <br><br>
+
+                    <div class="newRow">
+                        <input type="submit" value="Submit" id="submitFormButton">
+                        <!--Alternative method
+                    <input type="submit" value="Submit" id="submitFormButton" onclick="validateInput()">
+                -->
+                    </div>
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <footer>
+        <div>
+            <p>Follow us on:</p>
+            <img src="img/facebook.jpg" alt="Facebook">
+            <img src="img/instagram.png" alt="Instagram">
+            <img src="img/twitter.jpg" alt="Twitter">
+            <img src="img/youtube.jpg" alt="Youtube">
+            <img src="img/rss.jpg" alt="RSS"><br><br>
+            <p>2020 Legendary Food Hunter. All rights reserved.</p>
+    </footer>
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,97 @@
+/* Carousell/Slideshow styles */
+#carousel{
+   padding: 30px;
+}
+
+#carouSection{
+   background-color: #2C5882;
+   padding: 5px;
+   height:100%;
+}
+
+.carouHolder{
+   display: none;
+}
+
+.dot
+{
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   background-color: rgba(248, 195, 195, 0.829);
+   border-radius: 100%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+   background-color: #fc2626;
+ }
+
+ #caroHeader{
+    display: inline;
+    color:#FFFFFF;
+    font-family: 'Brush Script MT', cursive;
+ }
+
+ .carouimg{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+ }
+
+ .carouDescrip{
+    color:white;
+    text-align: center;
+ }
+
+/* Search Box styles */
+
+#searchSection{
+   height: 100%;
+   padding-left: 30px;
+}
+
+#searchForm{
+    background-color: #FFFDD1;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+ }
+
+input {
+   width: 80%;
+   padding: 5px;
+   margin: 5px 0 5px 0;
+   border: none;
+ }
+
+#submitButton{
+   background-color: #2C5882;
+   color: #FFFFFF;
+}
+/* Latest Articles/Promotion styles */
+#latestHeader{
+   margin-left: 20px;
+   padding-top: 20px;
+}
+
+.articleHolder{
+    background-color: #dddf88a4;
+    margin: 20px;
+    padding: 20px;
+    border-style: ridge;
+    border-color: darkred;
+}
+
+.previewHead{
+    text-align: center;
+}
+
+.previewImg{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
