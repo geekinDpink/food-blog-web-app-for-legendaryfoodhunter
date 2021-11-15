@@ -10,6 +10,10 @@ https://rawisglenn.medium.com/in-depth-guide-to-create-carousell-slideshow-widge
 I have also compiled a list of resources in the link below to facilitate wireframing and web design, hope it helps!
 https://rawisglenn.medium.com/resources-for-website-wireframing-6127bf3091a7
 
+If you find my work helpful/like my work, do support me by buying me a cup of coffee.
+Your kind gesture is greatly appreciated.
+https://www.buymeacoffee.com/rawisglenn
+
 
 References and special thanks to sites for providing the following:
 Content and Pictures
